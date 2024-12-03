@@ -1,0 +1,70 @@
+
+/* src/Home.css */
+.home {
+    text-align: center;
+    color: white;
+    background-image: url('../asserts/23.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+.header h1 {
+    font-size: 3rem; 
+    font-weight: bold;  
+    color: black; 
+    margin-bottom: 50px;
+  }
+  
+  .header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    max-width: 1000px;
+    margin: auto;
+    line-height: 1.5;
+    background-color: rgba(255, 255, 255); 
+    padding: 20px;
+    border: 2px solid #ccc; 
+    border-radius: 20px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+  
+  .content {
+    margin-top: 20px;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .icon {
+    font-size: 3rem;
+    color: #ffffff;
+  }
+  
+  .app-button {
+    background-color: #0066ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .app-button:hover {
+    background-color: #0044cc;
+  }

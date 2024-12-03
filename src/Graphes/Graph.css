@@ -1,0 +1,85 @@
+/* Graph.css */
+
+/* Conteneur principal */
+.graph-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour les titres */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Section de filtrage */
+.filter-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* Label des filtres */
+.filter-container label {
+    font-weight: bold;
+}
+
+/* Sélecteurs */
+.filter-select, .date-input, .month-input {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+/* Styles lors du focus sur les sélecteurs */
+.filter-select:focus, .date-input:focus, .month-input:focus {
+    border-color: #66b3ff;
+}
+
+/* Graphiques */
+.temp-graph, .hum-graph {
+    margin-top: 30px;
+}
+
+/* Ajout d'un espacement entre les graphiques */
+.temp-graph, .hum-graph {
+    margin-bottom: 50px;
+}
+
+/* Section de "Chargement" */
+.loading-message {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    margin-top: 20px;
+}
+
+/* Style du bouton de filtrage */
+button.filter-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Effet sur le bouton de filtrage */
+button.filter-button:hover {
+    background-color: #0056b3;
+}
